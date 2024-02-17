@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind CSS Example</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Additional styles */
+    .bg-img {
+      background-image: url('path_to_your_image.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh; /* Adjust as needed */
+    }
+  </style>
+</head>
+<body class="bg-img flex justify-center items-center">
+  <div class="text-center text-white">
+    <h1 class="text-4xl font-bold mb-4">Your Text Here</h1>
+    <div class="space-x-4 mb-8">
+      <button class="bg-transparent border border-white text-white py-2 px-4 rounded">Button 1</button>
+      <button class="bg-transparent border border-white text-white py-2 px-4 rounded">Button 2</button>
+    </div>
+  </div>
+</body>
+</html>
