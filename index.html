@@ -13,57 +13,122 @@
     <!-- =================== Link Tailwind CSS =================== -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- ======================== Link Custom CSS ================ -->
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
     <header class="md:w-4/5 mx-auto">
-        <!-- ==================== Start Navbar Section ============================= -->
-        <section id="nav" class="raleway-font">
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-medium">
-                      <li><a>Home</a></li>
-                      <li><a>About</a></li>
-                      <li><a>Destination</a></li>
-                      <li><a>Search</a></li>
-                    </ul>
-                  </div>
-                  <a class="btn btn-ghost text-xl font-extrabold">KARIM P.</a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1 font-medium">
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Destination</a></li>
-                    <li><a>Search</a></li>
-                  </ul>
-                </div>
-                <div class="navbar-end">
-                  <a class="btn font-bold text-[#1DD100] border-2 border-[#1DD100] bg-[#1DD1001A]">Button <img src="./images/bus-icon.png" alt=""></a>
-                </div>
+      <!-- ==================== Start Navbar Section ============================= -->
+      <section id="nav" class="raleway-font">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
               </div>
-        </section>
-        <!-- ======================== End Navbar Section ========================== -->
-        <!-- ========================= Start Banner Section ======================= -->
-        <section id="banner">
-            <div class="w-full h-3/4">
-                <img class="w-full" src="./images/banner.png" alt="">
-                <div class="absolute inset-0  flex flex-col gap-4 justify-center items-center">
-                    <h1 class="font-extrabold text-6xl text-white">End-to-End Travel with</h1>
-                    <h1 class="font-extrabold text-6xl text-[#1DD100]">Al-Karim Paribahan.</h1>
-                    <p class="inter-font text-white font-normal text-xl w-3/5 text-center">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
-                    <button class="btn bg-[#1DD100] font-bold text-xl border-none raleway-font">Buy Tickets</button>
-                </div>
-                
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-medium"
+              >
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
             </div>
-        </section>
-        <!-- ============================ End Banner Section ======================= -->
+            <a class="btn btn-ghost text-xl font-extrabold">KARIM P.</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 font-medium">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Destination</a></li>
+              <li><a>Search</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a
+              class="btn font-bold text-[#1DD100] border-2 border-[#1DD100] bg-[#1DD1001A]"
+              >Button <img src="./images/bus-icon.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+      <!-- ======================== End Navbar Section ========================== -->
+      <!-- ========================= Start Banner Section ======================= -->
+      <section id="banner">
+        <div class="w-full h-3/4">
+          <img class="w-full" src="./images/banner.png" alt="" />
+          <div
+            class="absolute inset-0 flex flex-col gap-4 justify-center items-center"
+          >
+            <h1 class="font-extrabold text-6xl text-white">
+              End-to-End Travel with
+            </h1>
+            <h1 class="font-extrabold text-6xl text-[#1DD100]">
+              Al-Karim Paribahan.
+            </h1>
+            <p
+              class="inter-font text-white font-normal text-xl w-3/5 text-center"
+            >
+              Yes, you can run unit tests and view the results directly within
+              the app. The integrated testing features allow for a streamlined .
+            </p>
+            <button
+              class="btn bg-[#1DD100] font-bold text-xl border-none raleway-font"
+            >
+              Buy Tickets
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- ============================ End Banner Section ======================= -->
     </header>
-    <main></main>
+    <main class="md:w-4/5 mx-auto">
+      <!-- ================= Start Coupon Section ================================-->
+      <section id="coupon-section">
+        <h1 class="mt-32 raleway-font mb-12 font-bold text-5xl text-center">Best offers for you</h1>
+        <div class="flex flex-col md:flex-row gap-6">
+          <div class="flex bg-[#FFBF0F] w-full rounded-2xl">
+            <div class="p-14">
+              <h1 class="inter-font font-extrabold text-[40px]">15% OFF</h1>
+              <p class="text-xl font-semibold text-[#030712cc]">on your next purchase</p>
+              <p class="font-medium text-xl text-[#03071280]">use by January 2024</p>
+            </div>
+            <img class="ml-16" src="./images/cupon-devider.png" alt="" />
+            <div class="p-14">
+              <h3 class="text-[#030712] font-bold text-4xl raleway-font items-center">NEW15</h3>
+              <p class="font-medium text-xl text-[#03071266] text-center mt-3">Coupon Code</p>
+            </div>
+          </div>
+          <div class="flex bg-[#F78C9C] w-full rounded-2xl">
+            <div class="p-14">
+              <h1 class="inter-font font-extrabold text-[40px]">20% OFF</h1>
+              <p class="text-xl font-semibold text-[#030712cc]">on your next purchase</p>
+              <p class="font-medium text-xl text-[#03071280]">use by January 2024</p>
+            </div>
+            <img class="ml-16" src="./images/cupon-devider.png" alt="" />
+            <div class="p-14">
+              <h3 class="text-[#030712] font-bold text-4xl raleway-font items-center">Couple 20</h3>
+              <p class="font-medium text-xl text-[#03071266] text-center mt-3">Coupon Code</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ================= End Coupon Section ================================-->
+    </main>
     <footer></footer>
     <!-- =================== Link Js File ================= -->
     <script src="./scripts/utiliti.js"></script>
