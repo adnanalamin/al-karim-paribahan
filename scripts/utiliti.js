@@ -96,7 +96,7 @@ function coupon() {
       showSitInfo.appendChild(discountPrice);
       showSitInfo.appendChild(discountPriceValue);
 
-      const btnActive = document.getElementById("hidden-button");
+      const btnActive = document.getElementById("copupon-active");
     btnActive.classList.add("hidden");
 
   }else if(cuponCode === "Couple 20"){
